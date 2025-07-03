@@ -4,187 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-
+    <title>Document</title>
 </head>
-<style>
-    body {
-        background: url('img/background.jpg') no-repeat center center fixed;
-        background-size: cover;
-        margin: 0;
-        font-family: 'Arial', sans-serif;
-    }
-</style>
 
 <body>
-<!-- هيدر -->
-    <header>
-        <div class="logo">Amr Pro</div>
-        <!-- ناف -->
-        <nav class="nav-links">
-            <a href="#">الرئيسية</a>
-            <a href="#">المنتجات</a>
-            <a href="#">من نحن</a>
-            <a href="#">اتصل بنا</a>
-        </nav>
-        <div class="icons">
-            <a href="#"><i class="fas fa-shopping-cart"></i></a>
-            <a href="profile.html"><i class="fas fa-user"></i></a>
-        </div>
-    </header>
-<div class="hero">
-  <h1>مرحبًا بك في Amr Pro</h1>
-  <p>نقدّم لك أفضل تشكيلات النظارات بأحدث التصاميم وأكثرها أناقة. اكتشف مجموعتنا الآن!</p>
-  <a href="#products" class="btn">تصفح المنتجات</a>
-</div>
-<!-- الاقسام -->
- <section class="categories">
-  <h2>الأقسام</h2>
-  <div class="category-grid">
-    <div class="category-card">
-      <img src="img/OIP2.jpg" alt="رجالي">
-      <h3>نظارات رجالي</h3>
+    <div class="con">
+        <form action="home.html" method="get">
+
+            <input type="email" name="email" placeholder="email">
+            <br>
+            <input type="password" name="password" placeholder="password">
+            <br><br>
+            <button type="submit">Login</button>
+        </form>
     </div>
-
-    <div class="category-card">
-      <img src="img/OIP1.jpg" alt="نسائي">
-      <h3>نظارات نسائي</h3>
-    </div>
-
-    <div class="category-card">
-      <img src="img/OIP4.jpg" alt="شمسية">
-      <h3>نظارات شمسية</h3>
-    </div>
-
-    <div class="category-card">
-      <img src="img/OIP3.jpg" alt="أطفال">
-      <h3>نظارات أطفال</h3>
-    </div>
-  </div>
-</section>
-<!-- الفرنيتشر -->
- <section class="featured-products">
-  <h2>المنتجات المميزة</h2>
-  <div class="products-grid">
-
-    <div class="product-card">
-      <img src="img/OIPf.jpg" alt="نظارة 1">
-      <h3>نظارة شمسية رجالي</h3>
-      <p class="price">399 جنيه</p>
-      <a href="#" class="btn">أضف إلى السلة</a>
-    </div>
-
-    <div class="product-card">
-      <img src="img/OIPf2.jpg" alt="نظارة 2">
-      <h3>نظارة طبية نسائي</h3>
-      <p class="price">450 جنيه</p>
-      <a href="#" class="btn">أضف إلى السلة</a>
-    </div>
-
-    <div class="product-card">
-      <img src="img/OIPf3.jpg" alt="نظارة 3">
-      <h3>نظارة أطفال ملونة</h3>
-      <p class="price">199 جنيه</p>
-      <a href="#" class="btn">أضف إلى السلة</a>
-    </div>
-
-  </div>
-</section>
-<!-- الاراء -->
- <section class="testimonials">
-  <h2>آراء عملائنا</h2>
-  <div class="testimonial-grid">
-
-    <div class="testimonial-card">
-      <p class="testimonial-text">"جودة النظارات ممتازة جدًا والتوصيل كان سريع. شكراً Amr Pro!"</p>
-      <div class="star-rating">
-        <span class="star filled">&#9733;</span>
-        <span class="star filled">&#9733;</span>
-        <span class="star filled">&#9733;</span>
-        <span class="star filled">&#9733;</span>
-        <span class="star">&#9733;</span>
-      </div>
-      <h4>- أحمد محمد</h4>
-    </div>
-
-    <div class="testimonial-card">
-      <p class="testimonial-text">"أشكال النظارات عصرية جدًا والأسعار مناسبة. أنصح الجميع بالتجربة."</p>
-      <div class="star-rating">
-        <span class="star filled">&#9733;</span>
-        <span class="star filled">&#9733;</span>
-        <span class="star filled">&#9733;</span>
-        <span class="star filled">&#9733;</span>
-        <span class="star filled">&#9733;</span>
-      </div>
-      <h4>- سارة علي</h4>
-    </div>
-
-    <div class="testimonial-card">
-      <p class="testimonial-text">"أحببت خدمة العملاء والتعامل الاحترافي. بالتأكيد سأطلب مرة أخرى."</p>
-      <div class="star-rating">
-        <span class="star filled">&#9733;</span>
-        <span class="star filled">&#9733;</span>
-        <span class="star filled">&#9733;</span>
-        <span class="star">&#9733;</span>
-        <span class="star">&#9733;</span>
-      </div>
-      <h4>- يوسف عادل</h4>
-    </div>
-
-  </div>
-</section>
-<!-- footer -->
-<footer class="site-footer">
-  <div class="footer-container">
-    
-    <!-- قسم من نحن -->
-    <div class="footer-about">
-      <h3>Amr Pro</h3>
-      <p>نظارات عالية الجودة بخدمة توصيل سريعة وتجربة تسوق آمنة.</p>
-    </div>
-
-    <!-- روابط التنقل -->
-    <div class="footer-links">
-      <h4>روابط سريعة</h4>
-      <ul>
-        <li><a href="#">الرئيسية</a></li>
-        <li><a href="#">المنتجات</a></li>
-        <li><a href="#">من نحن</a></li>
-        <li><a href="#">اتصل بنا</a></li>
-      </ul>
-    </div>
-
-    <!-- أيقونات التواصل -->
-    <div class="footer-social">
-      <h4>تابعنا على:</h4>
-      <div class="social-icons">
-        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
-      </div>
-    </div>
-
-    <!-- معلومات الاتصال -->
-    <div class="footer-contact">
-      <h4>تواصل معنا</h4>
-      <p>📍 الشرقية، مصر</p>
-      <p>📞 01033670461</p>
-      <p>✉️ amrahmedvlogs@gmail.com</p>
-    </div>
-
-  </div>
-
-  <!-- أسفل الفوتر -->
-  <div class="footer-bottom">
-    <p>&copy; 2025 Amr Pro. جميع الحقوق محفوظة.</p>
-  </div>
-</footer>
-
 
 
 </body>
